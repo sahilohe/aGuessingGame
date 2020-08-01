@@ -1,8 +1,8 @@
-import random
+import random # imports randome to generate some random numbers
 
-number = random.randint(1, 10) # our secret number
+number = random.randint(1, 10) # our secret number, ranges from 1 to 10
 count = 0 # the count, max three times
-#print(number)
+#print(number) # you can change if you want to see the secret number
 
 while count < 3 :
     ask = int(input("Guess : "))
