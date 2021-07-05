@@ -1,7 +1,7 @@
 // library to take user input. Need to install
 const getInput = require('prompt-sync')(); // npm install promt-sync
 
-for ( let i=0; i < 5;i++) {
+for ( let i=0; i < 5;i++) { // user gets 5 chances to play the game
   randomNumber = Math.round(Math.random() * 10 + 1) // generates a random number
   userGuess = getInput("What's your guess ? "); // takes user input
 
